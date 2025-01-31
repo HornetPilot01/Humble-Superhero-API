@@ -1,7 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 
-@Controller("Ping")
+@Controller("ping")
 export class AppController {
   constructor() {}
 

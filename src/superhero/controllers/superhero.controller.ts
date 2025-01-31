@@ -9,7 +9,7 @@ import { Superhero } from '../models/superhero.model';
 export class SuperheroController {
   constructor(private readonly superheroService: SuperheroService) {}
 
-  @Post()
+  @Post("create_new")
   @ApiOperation({ summary: 'Create a new superhero' })
   @ApiBody({ type: CreateSuperheroDto })
   @ApiResponse({
@@ -21,7 +21,7 @@ export class SuperheroController {
     return this.superheroService.create(createSuperheroDto);
   }
 
-  @Get()
+  @Get("get_all")
   @ApiOperation({
     summary: 'Get a list of superheroes sorted by humility score',
   })
