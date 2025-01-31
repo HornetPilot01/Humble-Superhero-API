@@ -1,7 +1,6 @@
 export class Superhero {
-  constructor(
-    public name: string,
-    public superpower: string,
-    public humilityScore: number,
-  ) {}
+  id: string;
+  name: string;
+  superpower: string;
+  humilityScore: number;
 }
