@@ -1,12 +1,14 @@
 import { Controller, Get } from '@nestjs/common';
-import { AppService } from './app.service';
+import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 
-@Controller()
+@Controller("Ping")
 export class AppController {
-  constructor(private readonly appService: AppService) {}
+  constructor() {}
 
   @Get()
+  @ApiOperation({ summary: 'Get Ping' })
+  @ApiResponse({ status: 200, description: 'Server is alive.' })
   getHello(): string {
-    return this.appService.getHello();
+    return `Server is alive!`;
   }
 }
