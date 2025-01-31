@@ -30,7 +30,7 @@ export class SuperheroController {
     description: 'List of superheroes',
     type: [Superhero],
   })
-  findAll() {
-    return this.superheroService.findAll();
+  fetchAll() {
+    return this.superheroService.fetchAll();
   }
 }

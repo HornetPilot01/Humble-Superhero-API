@@ -16,7 +16,7 @@ export class SuperheroService {
     return newSuperhero;
   }
 
-  findAll(): Superhero[] {
+  fetchAll(): Superhero[] {
     return this.superheroes.sort((a, b) => b.humilityScore - a.humilityScore);
   }
 }
