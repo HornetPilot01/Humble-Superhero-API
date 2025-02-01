@@ -8,7 +8,8 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.useGlobalFilters(new HttpExceptionFilter());
-
+  app.enableCors();
+  
   const options = new DocumentBuilder()
     .setTitle('Humble Superhero API')
     .setDescription('API for adding and fetching superheros')
