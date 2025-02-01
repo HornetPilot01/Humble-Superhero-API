@@ -9,7 +9,8 @@ async function bootstrap() {
 
   app.useGlobalFilters(new HttpExceptionFilter());
   app.enableCors();
-  
+  app.setGlobalPrefix("api");
+
   const options = new DocumentBuilder()
     .setTitle('Humble Superhero API')
     .setDescription('API for adding and fetching superheros')
