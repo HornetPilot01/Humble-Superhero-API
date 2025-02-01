@@ -63,6 +63,11 @@ GET api/superheroes/get_all
 | `superpower` | `String` 
 | `humilityScore` | `Integer`
 
+## 🤝 Team Player Attitude
+Collaboration is the heart of great teamwork. When working on this project with a teammate, I’d aim to create a positive, open space where ideas can flow freely. It’s not just about dividing the work, but about growing together. I’d share my thoughts and encourage my teammate to do the same, bouncing ideas off one another, and offering feedback that helps us both level up!
+
+## 📚 Eagerness to Learn
+If I had more time, I’d take the project even further. First, I’d replace the in-memory storage with a proper database 🗃️, which would enable the project to scale much better in production. I’d also expand the test coverage 🧪 to ensure we’re catching more edge cases and keeping everything solid. Adding a CI/CD pipeline 🚀 would streamline deployment and testing, making it easier to integrate new features. Additionally, I’d dive into Kubernetes 🐳 and set up clustering for better scalability and fault tolerance, preparing the app for more complex, large-scale environments. There's always more to learn and improve upon!
 
 ## 🙇 Author
 #### Vladyslav Nehodiuk
