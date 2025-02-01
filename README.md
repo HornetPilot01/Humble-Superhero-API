@@ -56,7 +56,6 @@ POST /api/superheroes/create_new
 ```http
 GET api/superheroes/get_all
 ```
-
 | Parameter | Type    
 | :-------- | :------- 
 | `id` | `GUID`
