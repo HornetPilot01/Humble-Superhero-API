@@ -9,7 +9,7 @@ A RESTful API to manage superheroes with a focus on validation, logging, and sca
 - **Logging**: Logs HTTP requests and exceptions to a file (`logs/app.log`).
 - **Scalable**: Easy to swap in-memory storage with a database in the future.
 - **Testing**: Unit and End-to-End tests using Jest.
-- **Swagger**: Convenient functionality for testing Endpoints.
+- **SwaggerUI**: Convenient functionality for testing Endpoints.
 
 ## 🛠️ Tech Stack
 
@@ -38,7 +38,7 @@ A RESTful API to manage superheroes with a focus on validation, logging, and sca
    ```bash
    http://localhost:3000/api
    
-![Image]([https://imgur.com/a/fwGm0NO](https://i.imgur.com/682aUd8.png))
+![Image](https://i.imgur.com/682aUd8.png)
    
 ## ➤ API Reference
 
