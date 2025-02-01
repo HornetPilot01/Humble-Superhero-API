@@ -38,7 +38,7 @@ A RESTful API to manage superheroes with a focus on validation, logging, and sca
    ```bash
    http://localhost:3000/api
    
-![Image](https://imgur.com/a/fwGm0NO)
+![Image]([https://imgur.com/a/fwGm0NO](https://i.imgur.com/682aUd8.png))
    
 ## ➤ API Reference
 
